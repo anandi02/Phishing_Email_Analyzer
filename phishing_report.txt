@@ -1,0 +1,17 @@
+===== PHISHING EMAIL ANALYSIS REPORT =====
+Sender: security@example.com
+Subject: Verify your account
+
+Extracted URLs:
+http://192.0.2.10/login
+
+Findings:
+- Suspicious wording detected: 'verify your account'
+- Suspicious wording detected: 'account suspended'
+- Suspicious wording detected: 'click immediately'
+- URL does not use HTTPS: http://192.0.2.10/login
+- URL uses an IP address as its host: http://192.0.2.10/login
+
+Important: This is a basic rule-based screening tool.
+Warnings are indicators, not proof of phishing.
+Do not open suspicious links to test them.
